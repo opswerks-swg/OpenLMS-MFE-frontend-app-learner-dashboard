@@ -86,6 +86,26 @@ const messages = defineMessages({
     defaultMessage: 'New',
     description: 'The text announcing that an item in the user menu is New',
   },
+  library: {
+    id: 'learnerVariantDashboard.menu.library.label',
+    defaultMessage: 'Library',
+    description: 'Header nav link for the course library.',
+  },
+  history: {
+    id: 'learnerVariantDashboard.menu.history.label',
+    defaultMessage: 'History',
+    description: 'Header nav link for learning history.',
+  },
+  browse: {
+    id: 'learnerVariantDashboard.menu.browse.label',
+    defaultMessage: 'Browse',
+    description: 'Header nav link for browsing the course catalog.',
+  },
+  searchPlaceholder: {
+    id: 'learnerVariantDashboard.search.placeholder',
+    defaultMessage: 'Search courses...',
+    description: 'Placeholder text for the header course search input.',
+  },
 });
 
 export default messages;
